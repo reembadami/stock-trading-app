@@ -8,10 +8,9 @@ const { ObjectId } = require("mongodb");
 const PORT = 8080;
 const path = require("path");
 
-const uri =
-  "mongodb+srv://reemmunn:YToSzKDYtaRBBSrT@cluster0.atvhymk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "";
 
-accObjId = "6625fd15100ffc8eba9ed029";
+accObjId = "";
 
 mongoose.connect(uri);
 
@@ -22,8 +21,8 @@ db.on("error", (err) => {
 
 app.listen(PORT, () => console.log("Server running on port", PORT));
 
-const finnhubAPIKey = "cnar4lpr01ql0f8af4jgcnar4lpr01ql0f8af4k0";
-const polygonAPIKey = "PhpIOWeOUgcspYuXgl0YrIt32QH_Bwgs";
+const finnhubAPIKey = "";
+const polygonAPIKey = "";
 
 //To allow CORS
 var corsMiddleware = function (req, res, next) {
