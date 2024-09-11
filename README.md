@@ -2,6 +2,8 @@
 
 This app allows users to search and trade stocks. Users can make trades during market hours, manage favorite stocks, view detailed performance graphs with Highcharts and view latest news articles related to the searched stock.
 
+Demo video: https://drive.google.com/file/d/1rFeNv7uqavE6fcVVpKpX-Uxpg-n0ZLVX/view?usp=sharing
+
 ## Key Features:
 
 - **Live Market Updates:** Stay updated with real-time market changes.
